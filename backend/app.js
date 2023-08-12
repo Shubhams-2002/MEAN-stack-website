@@ -6,7 +6,7 @@ const Post = require('./models/post');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://shubhamtssalunkhe:UhYhKxAZgBlr88aV@meanstackcluster.acbvpdo.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("link")
 .then(() => {
   console.log('Connected to Database!');
 })
